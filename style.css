@@ -18,7 +18,7 @@ html, body{
 /* Pr0 Background */
 
 html, body{
-  background-color : #1D1E21 !important;
+  background-color : #1D1E21;
   color: #FFFFFF;
 }
 
@@ -80,21 +80,21 @@ html, body{
 }
 
 
-#hero-banner> div{
+#hero-banner > div{
   width: 400px;
   padding:  20px;
   margin-left: 100px;
   margin-right: 150px;
 }
 
-#hero-banner> div h2{
+#hero-banner > div h2{
   color: #FF0000;
   letter-spacing: 5px;
   font-size:  48px;
   margin: 5px;
 }
 
-#hero-banner> div h4{
+#hero-banner > div h4{
   color: #FF0000;
   letter-spacing: 5px;
   font-size:  24px;
@@ -128,9 +128,9 @@ p{
   background-size: 100% 100%;
   position: absolute;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
   filter: grayscale(100%);
   transition: 1s;
 }
@@ -140,14 +140,14 @@ p{
 }
 
 .caption{
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(29,30,33,0.7);
   color: #FFFFFF;
   padding: 20px;
   position: absolute;
-  top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  margin: 0;
   opacity: 0;
   text-align: left;
   transition: 2s;
