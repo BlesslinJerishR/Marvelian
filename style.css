@@ -247,3 +247,14 @@ p{
      opacity: 0;
    }
  }
+
+#mitm{
+  position: relative;
+  left: 40%;
+}
+@media (max-width:480px){
+   #mitm{
+     position: relative;
+     left: 24% !important;
+   }
+}
