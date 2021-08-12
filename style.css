@@ -201,6 +201,7 @@ p{
 .social-navbar ul{
   margin: 0;
   padding: 0;
+  z-index: 9999 !important;
 }
 
 .social-navbar li{
@@ -208,33 +209,44 @@ p{
   padding: 10px;
   text-align: left;
   font-size:  20px;
-  z-index: 50;
+  z-index: 9999 !important;
+
 }
 
 .social-navbar a{
   text-decoration: none;
   color: #FFFFFF;
+  z-index: 9999 !important;
 }
 
 .icon-g{
   background-color: #FF0000;
+  z-index: 9999 !important;
+
 }
 
 .icon-t{
   background-color: skyblue;
+  z-index: 9999 !important;
+
 }
 
 .icon-p{
   background-color: orange;
+  z-index: 9999 !important;
+
 }
 
 .icon-d{
   background-color: purple;
+  z-index: 9999 !important;
+
 }
 
 .social-navbar li:hover{
   width: 90px;
   text-align: right;
+  z-index: 9999 !important;
 }
 
 @keyframes animate{
