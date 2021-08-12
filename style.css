@@ -35,3 +35,21 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+
+.navbar{
+  background-color: #1D1E21;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+h2{
+  margin-right: 50px;
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+  background-color: #1D1E21;
+}
